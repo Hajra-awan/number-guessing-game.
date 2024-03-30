@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let numberGenrat = Math.floor(Math.random() * 5 + 1);
 const answer = await inquirer.prompt({
